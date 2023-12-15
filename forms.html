@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/falcon.jpg">
+    <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-database.js"></script>
+    <script src="test.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="head">
+                <h2 id="name">Hostel Hunt</h2>
+            </div>
+        </header>
+
+        <div class="formfill">
+            <h2>Fill the form to Register :</h2>
+        </div>
+
+        <div class="form">
+            <form action="thanks.html" id="contactForm">
+                <div class="forms">
+
+                    <div class="each" id="each">
+                        <label for="stname">Name of Applicant : </label>
+                        <input type="text" id="stname" placeholder="Name">
+                    </div>
+                    <br>
+                    <div class="each">
+                        <label for="age">Age :</label>
+                        <input type="number" id="age">
+                    </div>
+                    <br><br>
+
+                    <div class="each">
+                        <label for="sycfl">College :</label>
+                        <select name="sycfl" id="sycfl" placeholder="college">
+                            <option value="CMR GROUP OF INSTITUTIONS">CMR GROUP OF INSTITUTIONS</option>
+                            <option value="MALLAREDDY GROUP OF INSTITUTIONS">MALLAREDDY GROUP OF INSTITUTIONS</option>
+                        </select>
+                    </div>
+                    <br><br>
+                    <div class="each">
+                        <label for="place">Place : </label>
+                        <input type="text" id="place" placeholder="Place">
+                        <br><br>
+                    </div>
+
+                    <br><br>
+
+                    <div class="each">
+                        <label for="phone">Contact Number : </label>
+                        <input type="tel" id="phone" placeholder="Phone">
+                    </div>
+
+                    <br><br>
+                    <div class="each">
+                        <label for="email"> Email ID : </label>
+                        <input type="email" id="email" placeholder="Mail ID">
+                    </div>
+                    <br><br>
+
+                    <div class="inputBox">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+</body>
+
+</html>

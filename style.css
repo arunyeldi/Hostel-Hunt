@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #ded2c1; */
+    background-image: url(img/back.jpg);
+    font-family: 'Lobster', cursive;
+}
+
+
+/* Dynamic Images */
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    /* background-color: #FFFDDD; */
+    /* margin-top: 0.5%; */
+    /* margin-left: 12%; */
+    border-radius: 20px;
+    /* border: 3px solid white; */
+
+}
+.top {
+    background-color: rgb(34, 6, 6) ;  
+}
+
+
+.slider figure div {
+    float: left;
+    width: 20%;
+}
+
+.slider figure img {
+    width: 100%;
+    /* margin-left: 10%; */
+    /* margin-top: 4%; */
+    /* margin-bottom: 3%; */
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    border-radius: 30px;
+    border: 4px solid white;
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: animate 35s infinite;
+}
+
+p.on {
+    position: fixed;
+    color: #ded2c1;
+    font-size: 30px;
+    padding-top: 20px;
+    /* background: rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    height: 100vh;
+}
+
+@keyframes animate {
+    0% {
+        left: 0%;
+    }
+    10% {
+        left: 0%;
+    }
+    12% {
+        left: -100%;
+    }
+    22% {
+        left: -100%;
+    }
+    24% {
+        left: -200%;
+    }
+    34% {
+        left: -200%;
+    }
+    36% {
+        left: -300%;
+    }
+    46% {
+        left: -300%;
+    }
+    48% {
+        left: -400%;
+    }
+    58% {
+        left: -400%;
+    }
+    60% {
+        left: -300%;
+    }
+    70% {
+        left: -300%;
+    }
+    72% {
+        left: -200%;
+    }
+    82% {
+        left: -200%;
+    }
+    84% {
+        left: -100%;
+    }
+    94% {
+        left: -100%;
+    }
+    96% {
+        left: 0%;
+    }
+}
+
+
+/* Basic Page Styles */
+
+.mybar {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(34, 6, 6) ;
+    /* margin-top: 0.25%; */
+}
+
+.mybar h2 {
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.header {
+    background-color: rgb(34, 6, 6);
+    height: 70px;
+}
+
+h2#name {
+    color: #ded2c1;
+    text-align: center;
+    font-size: 40px;
+    padding: 1%;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.cname {
+    display: flex;
+    margin-right: 20%;
+    margin-left: 15%;
+    padding: 4%;
+    padding-top: 1%;
+    border: solid 4px black;
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 2%;
+    background-color: rgb(34, 6, 6);
+}
+
+.cnames {
+    display: flex;
+    flex-direction: column;
+}
+
+.cnamel {
+    margin-left: 3%;
+    padding: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+.inst {
+    margin-top: 2%;
+    text-align: center;
+}
+
+h3.extra {
+    font-size: 15px;
+}
+
+h2.choice {
+    font-size: 35px;
+}
+
+.contactus {
+    margin-top: 10%;
+   margin-left: 80%;
+}
+.footer {
+    margin-top: 1%;
+    text-align: center;
+    background-color: rgb(34, 6, 6);
+    height: 60px;
+    color: white;
+}
+
+.copyright {
+    padding-top: 1.5%;
+}
+
+
+
+
+
+
+/* MACE.HTML */
+
+
+.gibo {
+    /* border: solid 4px black; */
+    border-radius:10px ;
+    width: 290px;
+    /* margin-top: 1%; */
+    background-color: black;
+    margin-top: 8%;
+}
+
+.gibo:hover {
+    transform: translateY(-10px);
+    transition: transform ease-out .15s;
+}
+
+.bimg {
+    width: 290px;
+    transform: translateY(0);
+    transition: ease-in-out 0.15s;
+   
+}
+
+.box:hover .bimg {
+    transform: translateY(-10px);
+    transition: transform ease-out .15s;
+    /* transform: rotate(30deg); */
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.ghi {
+    text-decoration: none;
+    color: #3f2c22;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 20%;  
+    color: white;
+}
+
+.ghi:hover {
+    color: gray;
+}
+
+.mkdir {
+    text-align: center;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
+
+/* Girls mace */
+
+.colnm h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5%;
+}
+
+.cname:hover {
+    background-color: black;
+}
+.cnamel:hover {
+    color: white;
+}
+.college-list {
+    margin-top: 8%;
+}
+
+
+
+
+/* Hostel1 */
+
+
+.hostelname h2 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.hostelname h2 {
+    text-decoration: underline;
+}
+
+.photosec {
+    margin-top: 5%;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo {
+    /* border: solid black 4px; */
+    border-radius: 20px;
+}
+
+.hospho {
+    width : 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+/* .flex-container {
+    display: flex;
+} */
+
+.detailing {
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   /* border: solid 4px #3f2c22;
+   border-radius: 50px; */
+   margin-top: 5%;
+   /* width: 300px; */
+   height: 120px;
+   padding-top: 1%;
+   /* background-color: white; */
+
+}
+
+/* .detailing:hover {
+    background-color: #3f2c22;
+    color: whitesmoke;
+    border: whitesmoke;
+} */
+
+
+.dethead {
+    margin-left: 10%;
+    margin-top: 0;
+}
+.detailing h2 , .detailing div {
+    text-align: center;
+}
+
+
+.infosec {
+    background-color: lightgoldenrodyellow;
+    margin: 2%;
+    height: 175px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* margin-left: 30%;
+    margin-top: 10%; */
+}
+
+.arate {
+    width: 150px;
+    border-radius: 10px;
+    padding: 0.5%;
+    display: flex;
+
+    margin-top: 5%;
+    color: black;
+    height: 100px;
+    /* margin-left: 7%; */
+    /* padding-top: 5%; */
+}
+
+.cfr {
+    margin-top: 0;
+}
+.caution,.monthly {
+    font-size: 20px;
+}
+
+.hixi {
+    margin-top: 2%;
+    margin-left: 7%;
+}
+
+.booksect {
+    background-color: lightgoldenrodyellow;
+    margin: 2%;
+    text-align: center;
+    height: 60vh;
+    font-size: 40px;
+}
+.numseat {
+    padding-top: 7%;
+}
+.actual {
+    background-color: green;
+    color: white;
+    font-size: 60px;
+    width: 85px;
+    border-radius: 40px;
+    margin-left: 47%;
+}
+
+.actual:hover {
+    background-color: black;
+}
+
+.star {
+    background-color: #388e3c;
+    border-radius: 20px;
+    color: #fff;
+    padding: 2%;
+    font-size: 30px;
+    width: 500px;
+    height: 50px;
+}
+
+.bookbtn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .bookbtn:hover {
+      background-color: rgb(245, 245, 43);
+      color: red;
+  }
+
+  .bysn {
+      border: none;
+      background-color: #4CAF50;
+  }
+
+  .bsyn:hover {
+    background-color: rgb(245, 245, 43);
+  }
+
+
+
+
+
+/* Forms */
+
+.forms {
+    margin-left: 30%;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    margin-right: 30%;
+    height: 700px;
+    border: solid 5px #3f2c22;
+    border-radius: 28px;
+    background-color: whitesmoke;
+}
+
+.formfill h2{
+    text-align: center;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
+.submit {
+    margin-left: 40%;
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+input {
+    margin-left: 4%;
+    
+}
+.each{
+    padding: 1%;
+    text-align: center;
+}
+#each {
+    padding-top: 8%;
+}
+
+
+
+
+/* Thanks */
+
+
+.header 
+  { 
+    background-color: rgb(34, 6, 6);
+    height: 60px;
+}
+/* body
+{
+    background-color: rgb(231, 214, 192);background-image: url('downloads/hostels.jpg');
+    
+} */
+p.fcow {
+    color: white;
+}
+p.thanku {
+    font-size: 70px;
+    margin-top: 10%;
+}
+
+
+.resp {
+    margin-top: 2%;
+    color: black;
+}

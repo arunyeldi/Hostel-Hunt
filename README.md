@@ -1,1 +1,1 @@
-# Hostel-Hunt
+# Hostels.com
